@@ -1,0 +1,19 @@
+{
+"editor.wordWrap": "off",
+"workbench.colorTheme": "Dracula",
+"vim.easymotion": true,
+"vim.highlightedyank.enable": true,
+"vim.leader": " ",
+"vim.useSystemClipboard": true,
+"vim.replaceWithRegister": true,
+"vim.sneak": true,
+"vim.sneakUseIgnorecaseAndSmartcase": true,
+"editor.lineNumbers": "relative",
+"[c]": {
+    "editor.defaultFormatter": "ms-vscode.cpptools"
+},
+"editor.formatOnSave": true,
+"editor.formatOnType": true,
+"git.confirmSync": false,
+"terminal.integrated.enableMultiLinePasteWarning": false
+}
