@@ -1,0 +1,93 @@
+[
+    {
+        "key": "ctrl+tab",
+        "command": "workbench.action.nextEditor"
+    },
+    {
+        "key": "shift+alt+b",
+        "command": "gitlens.views.switchToBranch",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+shift+tab",
+        "command": "workbench.action.previousEditor"
+    },
+    {
+        "key": "alt+w",
+        "command": "cursorMove",
+        "args": {
+            "to": "up"
+        }
+    },
+    {
+        "key": "alt+s",
+        "command": "cursorMove",
+        "args": {
+            "to": "down"
+        }
+    },
+    {
+        "key": "alt+a",
+        "command": "cursorMove",
+        "args": {
+            "to": "left"
+        }
+    },
+    {
+        "key": "alt+d",
+        "command": "cursorMove",
+        "args": {
+            "to": "right"
+        }
+    },
+    {
+        "key": "shift+alt+c",
+        "command": "copyRelativeFilePath",
+        "when": "!editorFocus"
+    },
+    {
+        "key": "ctrl+k ctrl+shift+c",
+        "command": "-copyRelativeFilePath",
+        "when": "!editorFocus"
+    },
+    {
+        "key": "shift+alt+c",
+        "command": "-copyFilePath",
+        "when": "editorFocus"
+    },
+    {
+        "key": "shift+alt+c",
+        "command": "-copyFilePath",
+        "when": "!editorFocus"
+    },
+    {
+        "key": "shift+alt+c",
+        "command": "copyRelativeFilePath",
+        "when": "editorFocus"
+    },
+    {
+        "key": "ctrl+k ctrl+shift+c",
+        "command": "-copyRelativeFilePath",
+        "when": "editorFocus"
+    },
+    {
+        "key": "ctrl+shift+tab",
+        "command": "workbench.action.terminal.focusPrevious",
+        "when": "terminalFocus && terminalHasBeenCreated && !terminalEditorFocus || terminalFocus && terminalProcessSupported && !terminalEditorFocus"
+    },
+    {
+        "key": "ctrl+pageup",
+        "command": "-workbench.action.terminal.focusPrevious",
+        "when": "terminalFocus && terminalHasBeenCreated && !terminalEditorFocus || terminalFocus && terminalProcessSupported && !terminalEditorFocus"
+    },
+    {
+        "key": "ctrl+tab",
+        "command": "workbench.action.terminal.focusNext",
+        "when": "terminalFocus && terminalHasBeenCreated && !terminalEditorFocus || terminalFocus && terminalProcessSupported && !terminalEditorFocus"
+    },
+    {
+        "key": "ctrl+pagedown",
+        "command": "-workbench.action.terminal.focusNext",
+        "when": "terminalFocus && terminalHasBeenCreated && !terminalEditorFocus || terminalFocus && terminalProcessSupported && !terminalEditorFocus"
+    },
+]
